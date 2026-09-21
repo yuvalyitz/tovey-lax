@@ -1,0 +1,11 @@
+import Lax345332Proofs.Gadget
+import Lax345332Proofs.GadgetOcc
+import Lax345332Proofs.Occ
+import Lax345332Proofs.Pad
+import Lax345332Proofs.PadOcc
+import Lax345332Proofs.Split
+import Lax345332Proofs.SplitSat
+import Lax345332Proofs.SplitShape
+import Lax345332Proofs.SplitSound
+import Lax345332Proofs.Transform
+import Lax345332Proofs.Reduction

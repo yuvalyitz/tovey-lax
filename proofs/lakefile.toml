@@ -1,0 +1,45 @@
+name = "Lax345332Proofs"
+defaultTargets = ["Lax345332Proofs"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "db584cd6d46c92f209a44c0f1c829460d327499d"
+
+[[require]]
+name = "Lax345332"
+path = "../concepts"
+
+[[require]]
+name = "Lax434930"
+git = "https://github.com/EdouardBonnet/classical-complexity"
+rev = "0c0840319318215fd7b36a9a822b81ce55cf6941"
+subDir = "concepts"
+
+[[require]]
+name = "Lax429075"
+git = "https://github.com/EdouardBonnet/cook-levin"
+rev = "905f2da2698d5b38002676f74632aa716e731389"
+subDir = "concepts"
+
+# composition of polynomial-time Turing machines: not stated as a concept there
+# the word RAM, and (proofs) the IMP+ language, its verified compiler and `run_vcg`:
+# not stated as concepts there
+# the generic CNF scan and the RAM-to-Turing bridge, while both submissions are drafts
+[[require]]
+name = "Lax429075Proofs"
+git = "https://github.com/EdouardBonnet/cook-levin"
+rev = "905f2da2698d5b38002676f74632aa716e731389"
+subDir = "proofs"
+
+[[require]]
+name = "Lax434930Proofs"
+git = "https://github.com/EdouardBonnet/classical-complexity"
+rev = "0c0840319318215fd7b36a9a822b81ce55cf6941"
+subDir = "proofs"
+
+[[lean_lib]]
+name = "Lax345332Proofs"

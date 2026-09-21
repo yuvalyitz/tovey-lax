@@ -1,0 +1,11 @@
+specVersion: "1"
+id: lax-345332
+leanVersion: "v4.33.0"
+mathlibVersion: "db584cd6d46c92f209a44c0f1c829460d327499d"
+title: "A Simplified NP-Complete Satisfiability Problem"
+authors:
+  - name: Yuval Itzhaki
+    github: yuvalyitz
+  - name: Claude
+bibEntries:
+  - "@article{tovey1984simplified,\n  author  = {Tovey, Craig A.},\n  title   = {A simplified {NP}-complete satisfiability problem},\n  journal = {Discrete Applied Mathematics},\n  volume  = {8},\n  number  = {1},\n  pages   = {85--89},\n  year    = {1984},\n  doi     = {10.1016/0166-218X(84)90081-7}\n}\n"
